@@ -65,12 +65,12 @@ main {
 
 @media screen and (max-width: 768px) {
   main {
-    width: 50%;
+    width: 100%;
     margin: 50px auto;
   }
 
   .step-box {
-    float: none;
+    float: center;
     width: 90%;
     margin-bottom: 20px;
   }
@@ -79,9 +79,9 @@ main {
   margin-bottom: 0;
   }
 
-  .step-img1 {
-    background-size: 100%;
+  .step-img1, .step-img2, .step-img3 {
     background-position: center;
+    background-size: cover;
   }
 
 
